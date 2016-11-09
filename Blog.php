@@ -125,7 +125,7 @@ class Blog{
      * @Return string
      */
     public function path($path = null){
-        $p = "/wp-content/themes/babbler";
+        $p = "/wp-content/themes";
         if(!$path){ return $p; }
         return $p.'/'.trim($path, "/");
     }
